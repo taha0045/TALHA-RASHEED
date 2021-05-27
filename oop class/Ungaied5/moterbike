@@ -1,12 +1,12 @@
-public class moterbike extends Product {
+public class Handphone extends Product {
 
-    public moterbike(String name, int price) {
+    public Handphone(String name, int price) {
         super(name, price);
     }
-    public moterbike(){}
+    public Handphone(){}
 
     // This function will override showAdv function in the parent class
     public void showTitle() {
-        System.out.println("\nmoterbike List");
+        System.out.println("\nHandphone List");
     }
 }
