@@ -1,0 +1,20 @@
+  
+package Taha.OOP.classOOP.unguided2;
+
+public class Age {
+   //YOB=year of brith
+   int YOB;
+    int now = 2021;
+    int age;
+
+    public Age() {
+    }
+
+    String calculate(int YOB) {
+        if (YOB > now)
+            return "Please enter the correct year of birth";
+        else
+            age = now - YOB;
+        return "Your are " + age + " years old";
+    }
+}
